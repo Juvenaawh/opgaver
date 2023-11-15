@@ -1,39 +1,31 @@
-//7.a 
+//7.a
 int input = 20;
 
-while (input >= 0){
+while (input >= 0) {
 
-if(input == 6){
-  println("six");
+  if (input == 6) {
+    println("six");
+  } else if (input == 10) {
+    println("HALF!");
+  } else {
+    println(input);
   }
-  
-else if(input == 10) {
-  println("HALF!");
-}
 
-else {
-  println(input);
-}
-
-input--;
+  input--;
 }
 
 //7.b
 int input = -20;
 
-while (input <= 0){
+while (input <= 0) {
 
-if(input == -6){
-  println("minus six");
+  if (input == -6) {
+    println("minus six");
+  } else if (input == -10) {
+    println("HALF!");
+  } else {
+    println(input);
   }
-  
-else if(input == -10) {
-  println("HALF!");
-}
 
-else {
-  println(input);
-}
-
-input++;
+  input++;
 }
